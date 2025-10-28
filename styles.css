@@ -1,0 +1,98 @@
+:root {
+    --color-1: #ccd5ae;
+    --color-2: #110B11;
+    --color-3: #e0e1dd;
+    --color-4: #c1121f;
+    --color-5: #0db3c8;
+}
+
+body {
+    font-size: 16px;
+    color: var(--color-2);
+    overflow: auto ;
+    margin-bottom: 21px;
+    background-size: contain;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    text-align: left;
+    border-bottom: 1px solid var(--color-2);
+    margin-bottom: 21px;
+}
+
+.contact {
+    float: right;
+}
+
+
+.socials{
+    position: relative;
+    text-align: center;
+    margin-bottom: 21px;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 13px;
+    color: var(--color-2);
+    padding-bottom: 21px;
+    padding-top: 21px;
+}
+
+.home-content{
+    max-width: 80%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a, a:visited {
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-5);
+    background-color: #c1121f;
+}
+
+
+.container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+	padding: 0px 36px 0px;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+    background-color:var(--color-3);
+    border-radius: 1%;
+    font-size: 1em;
+    min-height: 90vh;
+}
+
+footer {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: small;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.self-portrait{
+    float: right;
+    position: relative;
+    clear: both;
+    margin-left: 20px;
+    border-radius: 20%;
+    margin-bottom: 21px;
+}
