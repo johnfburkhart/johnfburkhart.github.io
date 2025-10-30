@@ -1,14 +1,15 @@
 :root {
     --color-1: #ccd5ae;
     --color-2: #110B11;
-    --color-3: #e0e1dd;
-    --color-4: #c1121f;
+    --color-3: #FBFEFB;
+    --color-4: #eae4e4;
     --color-5: #0db3c8;
 }
 
 body {
     font-size: 16px;
     color: var(--color-2);
+    background-color: var(--color-4);
     overflow: auto ;
     margin-bottom: 21px;
     background-size: contain;
@@ -32,7 +33,6 @@ nav {
 
 .socials{
     position: relative;
-    text-align: center;
     margin-bottom: 21px;
 }
 nav ul li {
@@ -53,8 +53,9 @@ ul {
 }
 
 a, a:visited {
-    color: var(--color-4);
+    color: var(--color-2);
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -72,15 +73,15 @@ a:hover {
     margin-bottom: 21px;
     margin-top: 21px;
     background-color:var(--color-3);
-    border-radius: 1%;
     font-size: 1em;
-    min-height: 90vh;
+    min-height: 60vh;
 }
 
 footer {
-    max-width: 50%;
+    max-width: 70%;
+    position: absolute;
+    bottom: 0;
     margin: auto;
-    text-align: center;
     font-size: small;
 }
 
